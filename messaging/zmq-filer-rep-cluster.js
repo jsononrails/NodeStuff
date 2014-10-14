@@ -36,7 +36,7 @@ if (cluster.isMaster) {
   });
   
   // fork 10 worker processes
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 25; i++) {
     cluster.fork();
   }
   
